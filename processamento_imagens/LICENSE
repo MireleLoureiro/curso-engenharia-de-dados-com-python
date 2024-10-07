@@ -1,0 +1,9 @@
+
+### Passo 7: Publicar
+
+Para publicar o pacote, pode ser necessário criar uma conta no [PyPI](https://pypi.org/) e usar o **twine** para enviar o pacote:
+
+```bash
+pip install twine
+python setup.py sdist
+twine upload dist/*
